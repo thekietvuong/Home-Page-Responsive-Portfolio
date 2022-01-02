@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c1d4c8f89c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <title>Home page responsive portfolio</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div >
+                    <img class="nav__logo" src="/assets/img/logo.png" alt=""></img>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">ABOUT</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">SERVICES</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">BLOG</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">CONTACT</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle " id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <img class="home__pressent anime-text" src="assets/img/THEKIET.png" alt=""></img>
+                    <span class="home__skill anime-text">Designer - Developer</span>
+                    <a href="#" class="home__button anime-text">MY WORK</a>
+                </div>
+
+                <div class="home__img">
+                        <img class="myPortrait" src="assets/img/myPortrait.png" alt="">
+                        <img class="home__img zoom text" src="assets/img/Text.png" alt="">
+                        <img class="home__img zoom pattern" src="assets/img/Pattern.png" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <i class="home__social-icon fab fa-facebook-square"></i>
+                    <i class="home__social-icon fab fa-instagram"></i>
+                    <i class="home__social-icon fab fa-twitter"></i>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
